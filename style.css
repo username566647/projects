@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+* {
+    margin: 0;
+    padding:0;
+    align-items: center;
+}
+body {
+    width: 100%;
+    height: auto;
+    color: #ffee58;
+    background: url("https://phonoteka.org/uploads/posts/2021-06/1624782943_29-phonoteka_org-p-fioletovii-zakat-oboi-krasivo-30.jpg");
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+img {
+    width: 250px;
+    height: 250px;
+    box-shadow: -3em 3rem 4em rgba(9, 192, 91, 0.418);
+}
+h2 {
+    font-size: 25px;
+    color: rgb(36, 207, 193);
+    animation: shadow 6s infinite ease-in-out;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 8px;
+    }
+.projects {
+    width:100px;
+    height:10px;
+    }
+
+@keyframes shadow {
+        from {text-shadow: 0 0 5px rgb(0, 0, 59); 
+        /*transform: rotate(5deg); */
+        }
+        50% {text-shadow: 0 0 50px rgb(14, 0, 209);
+        /*transform: rotate(10deg);*/
+        }
+        to {text-shadow: 0 0 10px rgb(241, 70, 150);
+       /*transform: rotate(12deg); */
+       }
+    }
+
+@keyframes move {
+        from {top:0; left:0;}
+        25%, 75% {top:100%;}
+        50% { 
+            top: 15%
+     }
+}
+
+a {   
+    color: black;
+}
+    
+a:hover {
+    color: violet;
+    text-decoration: none;
+}
+
+a:active {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+th, td {
+    padding: 0 10px;
+}
+
+.box {
+    width: 900px;
+    border: 20px rgb(118, 35, 202);
+    display: flex;
+    margin-top: 15px;
+    
+}
+
+.info {
+    margin: 3em;
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    border-radius: 3px;
+    color: rgb(139, 110, 67);
+    background-color: rgb(152, 223, 228);
+}
+
+@media screen and (max-width: 1080px) {
+    
+}

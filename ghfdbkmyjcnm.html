@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Expression</title>
+</head>
+<body>
+    <script>
+        // function show(message) {
+        //     alert("poka")
+            
+        // }
+        // showMessage()
+
+
+        // let sayHi = function (text) {
+        //     alert(text)
+            
+        // }
+        // sayHi("Hello world")
+
+        // function ask(question, yes, no) {
+        //     if (confirm(question)) yes()
+        //     else no();
+        // }
+        
+        // function showOk() {
+        //     alert("Вы согл!")
+        // }
+        // function showCancel() {
+        //     alert("Вы отменили выполнение")
+        // }
+        // ask("Вы согл?", showOk, showCancel)
+
+        function ask(question, yes, no) {
+            if (prompt(question)== "n") yes()
+            else no();
+        }
+        function showOk() {
+            alert("Пароль верный")
+        }
+        function showCancel() {
+             alert("Пароль неверный")
+         }
+        ask("Введите пароль", showOk, showCancel)
+    </script>
+</body>
+</html>
